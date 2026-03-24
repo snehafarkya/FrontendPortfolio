@@ -13,7 +13,7 @@ export default function ChatUI({ onSend, onInputChange }: any) {
   };
 
   return (
-    <div className="fixed bottom-10 w-full flex flex-wrap max-w-fit justify-center flex-col items-center">
+    <div className="fixed bottom-10 w-full flex xs:flex-wrap xs:max-w-fit md: justify-center flex-col items-center">
 
       {/* Suggestions */}
       <div className="flex gap-2 mb-3 flex-wrap justify-center">
